@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<small>최종수정일: {{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+<p>{{page.description}}</p>
+
+{{content}}
+
+<a href="{{ '/' | absolute_url }}">메인으로 돌아가기</a>
