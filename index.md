@@ -39,6 +39,7 @@ layout: default
 
 ### 🛠 개발 팁 & 도구
 - [Git 명령어 정리](dev_tips/git-commands.md)
+- [mySQL 사용법 정리](dev_tips/mySQL.md)
 
 ### 📘 개발 기록
 
