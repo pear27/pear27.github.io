@@ -200,6 +200,7 @@ for page in range(1, len(page_links) + 1):
     soup2 = BeautifulSoup(driver.page_source, 'html.parser')
 ```
 위 for문 안에서 event_list를 가져오고 각 event_item에서 정보를 가져오도록 수정하면, 각 이벤트에 대한 간단한 정보를 수집한 .csv 파일을 생성하는 코드가 완성됩니다.
+
 |   | event_code | event_subject | event_image | event_start | event_end | event_categories |
 |:--|:-----------|:--------------|:------------|:-----------|:----------|:-----------------|
 | 0 | 286079 | 아고다 최대 15% 즉시할인 | https://img1.kbcard.com/ST/img/cxc/event/mgr/banner/250220_agoda_orange.png | 2025-05-19 | 2025-09-30 | "[""할인""]" |
