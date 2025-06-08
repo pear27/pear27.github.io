@@ -4,4 +4,4 @@ title: "mySQL 사용법 정리"
 description: "사용자가 보유한 카드 정보를 바탕으로, 방문하려는 매장에 가장 적합한 결제 카드를 추천하고, 반대로 보유 카드로 할인을 받을 수 있는 매장을 찾아주는 모바일 애플리케이션입니다."
 layout: log
 ---
-[웹 사이트 크롤링: 이벤트 페이지 가져오기](/dev_log/WiseCard/event-crawling.md)
+[웹 사이트 크롤링: 이벤트 페이지 가져오기](dev_log/WiseCard/event-crawling.md)
