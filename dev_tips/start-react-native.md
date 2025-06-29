@@ -81,25 +81,29 @@ React Native를 활용한 모바일 애플리케이션 개발에 앞서,
     ```
 
     **React JS**를 사용할 때와 동일하게, 코드를 변경한 후 저장하면 바로 **Expo** 어플리케이션 화면에 반영됩니다.
+
 ---
+
 ### 💡 React Native 문법: React JS와의 차이점을 중심으로
 
-  ```jsx
-  <View>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-  </View>
-  ```
+    ```jsx
+    <View>
+        <Text>Open up App.js to start working on your app!</Text>
+        <StatusBar style="auto" />
+    </View>
+    ```
 
-  * `View` 태그: 모든 레이아웃 컨테이너로 사용됩니다.
-  * `Text` 태그: 모든 텍스트 요소를 담을 때 사용됩니다. (`p`, `span` 등의 HTML 태그를 사용할 수 없습니다)
+    * `View` 태그: 모든 레이아웃 컨테이너로 사용됩니다.
+    * `Text` 태그: 모든 텍스트 요소를 담을 때 사용됩니다. (`p`, `span` 등의 HTML 태그를 사용할 수 없습니다)
 
-  ```js
-  const styles = StyleSheet.create({
-    container: {
-        // 스타일 속성 정의
-    },
-  });
-  ```
-  * `StyleSheet` 객체: 코드 에디터에서 CSS 자동 완성 기능을 지원합니다. (필수X)
+    ```js
+    const styles = StyleSheet.create({
+        container: {
+            // 스타일 속성 정의
+        },
+    });
+    ```
+  
+    * `StyleSheet` 객체: 코드 에디터에서 CSS 자동 완성 기능을 지원합니다. (필수X)
+
 ---
