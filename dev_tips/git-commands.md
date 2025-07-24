@@ -121,7 +121,7 @@ git push origin --delete 삭제하려는_브랜치_이름
 Git에서 스테이징된 변경 사항을 클립보드로 복사합니다. <br>커밋 메시지를 작성할 때 생성형 AI의 도움을 받는 경우, 복사한 내용을 사용할 수 있습니다. 
 
 ```bash
-cmd /c "(git diff --staged & echo. & git diff) | clip"
+git diff --staged | clip
 ```
 
 ---
