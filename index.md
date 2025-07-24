@@ -9,6 +9,7 @@ layout: default
 ---
 
 ## 🎓 학력
+
 - 이화여자대학교 소프트웨어학부 컴퓨터공학과 재학 (2021 ~ )
 
 ---
@@ -39,9 +40,20 @@ layout: default
   <br>
   [개발 일지](dev_log/WiseCard/wisecard-log.md)
 
+- **MovieMoBa** `진행중`  
+  최신 영화 정보와 개인 취향 기반 추천을 제공하고 자연어로 영화 추천을 요청할 수 있는 모바일 애플리케이션입니다.
+  <br>
+  [Link to Github](https://github.com/pear27/MovieMoBa_front)
+
+- **MADHalliGalli** `진행중`  
+  사용자가 등록한 할일의 난이도와 마감 기한을 바탕으로 바쁨지수를 계산해 시각화하고, 프로젝트 단위로 할일을 관리할 수 있어 협업에도 활용 가능한 캘린더 기반 할일 관리 애플리케이션입니다.
+  <br>
+  [Link to Github](https://github.com/pear27/week2_back)
+
 ---
 
 ### 🛠 개발 팁 & 도구
+
 - [Git 명령어 정리](dev_tips/git-commands.md)
 - [mySQL 사용법 정리](dev_tips/mySQL.md)
 - [React Native 시작하기](dev_tips/start-react-native.md)
