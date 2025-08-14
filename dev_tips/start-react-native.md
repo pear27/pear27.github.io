@@ -57,10 +57,17 @@ React Native를 활용한 모바일 애플리케이션 개발에 앞서,
     CMD에서 아래 명령어를 입력하여 새 프로젝트 폴더를 생성합니다. 
 
     ```bash 
-    expo init my-project
-        # 프로젝트명은 my-project
+    npx create-expo-app@latest my-project
+     # 프로젝트명은 my-project
     ```
-    위 내용을 입력하면 설치를 시작하기에 앞서 template을 선택할 수 있는데, 본 포스트에서는 첫 번째 옵션인 **blank**를 기준으로 합니다.
+
+    * **예제 파일 삭제하기**
+
+        프로젝트 생성 후 기본적으로 생성되는 예제 파일들을 아래 명령어로 삭제하여 프로젝트를 초기화할 수 있습니다.
+
+        ```bash
+        npm run reset-project  
+        ```
 
 2. **프로젝트 실행하기**
 
@@ -68,7 +75,7 @@ React Native를 활용한 모바일 애플리케이션 개발에 앞서,
 
     **Expo** 모바일 어플리케이션에서 생성한 계정으로 로그인합니다. 
 
-    `npm start` 
+    `npx expo start` 
     
     프로젝트를 실행합니다.
     
@@ -96,6 +103,35 @@ React Native를 활용한 모바일 애플리케이션 개발에 앞서,
         npx expo start --tunnel
         ```
         최초 실행 시 관련 패키지 설치가 필요할 수 있습니다.
+
+3. **프로젝트 빌드하기**
+    
+    Expo Application Services(EAS)를 이용하면 클라우드에서 앱을 컴파일하고 생산할 수 있습니다.
+
+    최초 1회, 아래 명령어를 입력하여 eas-cli를 설치하고 EAS에 로그인합니다. (Expo 계정 필요)
+
+    ```bash
+    npm install -g eas-cli
+     # eas-cli 설치
+    eas login
+     # eas 로그인
+    ```
+
+    현재 프로젝트에 EAS config(EAS 설정)를 생성하기 위해 아래 명령어를 입력합니다.
+
+    ```bash
+    eas build:configure
+    ```
+
+    아래 명령어를 입력하여 현재 프로젝트를 클라우드에서 컴파일하고 빌드합니다.
+
+    ```bash
+    eas build --platform android --profile development
+    ```
+
+    최초 실행 시 설치를 요구하는 파일이 있으면 설치해주고, keystore도 함께 생성합니다. 
+
+    빌드가 완료되면 커맨드 라인에 QR 코드가 출력됩니다. 이를 Expo Go 앱에서 스캔하면 .apk 파일을 설치할 수 있는 링크로 이동합니다.
 
 ---
 
