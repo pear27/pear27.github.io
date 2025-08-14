@@ -71,11 +71,15 @@ React Native를 활용한 모바일 애플리케이션 개발에 앞서,
 
 2. **프로젝트 실행하기**
 
-    `expo login`
+    ```bash
+    expo login
+    ```
 
     **Expo** 모바일 어플리케이션에서 생성한 계정으로 로그인합니다. 
 
-    `npx expo start` 
+    ```bash
+    npx expo start
+    ``` 
     
     프로젝트를 실행합니다.
     
