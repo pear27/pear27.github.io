@@ -40,7 +40,7 @@ layout: default
   <br>
   [개발 일지](dev_log/WiseCard/wisecard-log.md)
 
-- **MovieMoBa** `진행중`  
+- **MovieMoBa**
   최신 영화 정보와 개인 취향 기반 추천을 제공하고 자연어로 영화 추천을 요청할 수 있는 모바일 애플리케이션입니다.
   <br>
   [Link to Github](https://github.com/pear27/MovieMoBa_front)
@@ -49,6 +49,11 @@ layout: default
   사용자가 등록한 할일의 난이도와 마감 기한을 바탕으로 바쁨지수를 계산해 시각화하고, 프로젝트 단위로 할일을 관리할 수 있어 협업에도 활용 가능한 캘린더 기반 할일 관리 애플리케이션입니다.
   <br>
   [Link to Github](https://github.com/pear27/week2_back)
+
+- **John's Manitto**
+  마니또 놀이를 위한 소셜 네트워크 웹 서비스입니다. 그룹을 만들고 그룹 멤버들에게 마니또를 자동으로 배정해주며, 마니또 활동 내역을 기록하고 관리할 수 있습니다.
+  <br>
+  [Link to Github](https://github.com/pear27/manitto_back)
 
 ---
 
