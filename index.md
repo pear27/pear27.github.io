@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### 🙋‍♀️ 안녕하세요, 배윤아(PEAR27)입니다.
+🙋‍♀️ 안녕하세요, 배윤아(PEAR27)입니다.
 
 사용자 입장에서 시스템을 바라보는 풀스택 개발자입니다.
 
@@ -16,36 +16,23 @@ layout: default
 
 ### 🔍 기술 스택
 
-**Frontend**
-- Next.js, React, React Native, TypeScript
-- Expo, Android Native Bridge (WebView, NotificationListenerService)
-
-**Backend**
-- Supabase (PostgreSQL)
-- Express.js, NestJS
-
-**Infra / DevOps**
-- NCP (Naver Cloud Platform), Kubernetes
-- Vercel, Cloudflare
-
-**AI / Tools**
-- Claude API, Claude Code
-- Playwright MCP
+- **Frontend** Next.js, React, React Native, TypeScript, Expo, Android Native Bridge (WebView, NotificationListenerService)
+- **Backend** Supabase (PostgreSQL), Express.js, NestJS
+- **Infra / DevOps** NCP (Naver Cloud Platform), Kubernetes, Vercel, Cloudflare
+- **AI / Tools** Claude API, Claude Code, Playwright MCP
 
 ---
 
 ### 🏃 이력
 
 **Lightweight Inc.** (2026.02 – )
-태블릿 앱·모바일 앱·CRM 웹 전 플랫폼이 공유하는 단일 Supabase 백엔드와 NCP/Kubernetes 클라우드 인프라 운영
+태블릿 앱·모바일 앱·CRM 웹 전 플랫폼이 공유하는 단일 Supabase 백엔드 및 NCP/Kubernetes 클라우드 인프라 운영
 - API 추상화 설계 — 클라이언트 단순 호출로 복잡한 로직을 처리하는 RPC 구조
 - RLS 보안 재설계 — 관계 기반 + JWT app_metadata 병행 권한 구조
 - 인프라 장애 대응 — SSL 만료, WAL 오버플로우 등 장애마다 런북·인시던트 리포트 작성
 - AI 운동 분석 기능 — Claude API 연동, 다국어 프롬프트 자동 분기 구조 설계
-- selfhosting → SaaS 마이그레이션 배포 체계 수립
 
-**KAIST 몰입캠프 하계** (2025.08)
-1주 1프로젝트 집중 개발 캠프.
+**KAIST 몰입캠프 하계** (2025.08) 1주 1프로젝트 집중 개발 캠프
 
 **이화여자대학교 소프트웨어학부 컴퓨터공학과** (2021.03 ~ 2026.08)
   
