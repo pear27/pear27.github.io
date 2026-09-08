@@ -56,28 +56,31 @@ layout: default
 
 - **WiseCard** (2025.03 ~ 2025.12)  
   사용자가 보유한 카드 정보를 바탕으로, 방문하려는 매장에 가장 적합한 결제 카드를 추천하고, 반대로 보유 카드로 할인을 받을 수 있는 매장을 찾아주는 모바일 애플리케이션입니다.
+  - 졸업산학프로젝트 | 프로젝트 팀장, React Native·Expo 프론트엔드 전담. Android Native 브리지 연동(NotificationListenerService), KakaoMap WebView 구현.
   <br>
   [개발 일지](dev_log/WiseCard/wisecard-log.md)
 
 - **John's Manitto** (2025.07)  
   마니또 놀이를 위한 소셜 네트워크 웹 서비스입니다. 그룹을 만들고 그룹 멤버들에게 마니또를 자동으로 배정해주며, 마니또 활동 내역을 기록하고 관리할 수 있습니다.
-  (NestJS·TypeScript 백엔드 전담. Fisher-Yates 셔플 + 순환 구조로 마니또 자기배정 방지 알고리즘 구현)
+  - KAIST 몰입캠프 3주차 산출물 | NestJS·MongoDB 백엔드 전담. Fisher-Yates 셔플 + 순환 구조로 마니또 자기배정 방지 알고리즘 구현
   <br>
   [Link to Github](https://github.com/pear27/manitto_back)
 
 - **MADHalliGalli** (2025.07)  
   사용자가 등록한 할일의 난이도와 마감 기한을 바탕으로 바쁨지수를 계산해 시각화하고, 프로젝트 단위로 할일을 관리할 수 있어 협업에도 활용 가능한 캘린더 기반 할일 관리 애플리케이션입니다.
-  (Express.js 백엔드 전담. 반복 일정·공유 시스템 포함 캘린더 앱 데이터 모델 설계)
+  - KAIST 몰입캠프 2주차 산출물 | Express.js·MongoDB 백엔드 전담. 반복 일정·공유 시스템 포함 캘린더 앱 데이터 모델 설계
   <br>
   [Link to Github](https://github.com/pear27/week2_back)
 
 - **MovieMoBa** (2025.07)  
   최신 영화 정보와 개인 취향 기반 추천을 제공하고 자연어로 영화 추천을 요청할 수 있는 모바일 애플리케이션입니다.
+  - KAIST 몰입캠프 1주차 산출물 | React Native·Expo 프론트엔드 전담
   <br>
   [Link to Github](https://github.com/pear27/MovieMoBa_front)
 
 - **PosterPlot** (2025.02 ~ 2025.05)  
   사용자가 업로드한 영화 포스터를 기반으로 AI가 창의적인 스토리를 생성해주는 생성형 AI 서비스입니다. 이미지 분석 및 텍스트 생성 기능을 포함하며, 유저 간 의견을 공유할 수 있는 커뮤니티 기능도 제공합니다.
+  - React 프론트엔드 전담
   <br>
   [Link to Github](https://github.com/pear27/PosterPlot_FE)
 
