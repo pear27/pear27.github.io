@@ -12,7 +12,7 @@ layout: default
 
 - 이화여자대학교 소프트웨어학부 컴퓨터공학과 (2021.03 ~ 2026.08)
 - 카이스트 몰입캠프 (2025.07)
-- (주)라잇웨잇 풀스택 개발자 (2026.02 ~ )
+- (주)라잇웨잇 풀스택 개발자 (2026.02 ~ 2026.08)
 
 ---
 
@@ -64,5 +64,6 @@ layout: default
 - [Git 명령어 정리](dev_tips/git-commands.md)
 - [mySQL 사용법 정리](dev_tips/mySQL.md)
 - [React Native 시작하기](dev_tips/start-react-native.md)
+- [Windows 명령 프롬프트](dev_tips/windows-commands.md)
 
 ---
